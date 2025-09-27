@@ -16,7 +16,7 @@
     },
     {
         "name": "IRBP/RBP3",
-        "term": "IRBP[Gene] OR RBP3[Gene]",
+        "term": "IRBP[Gene]",
         "file_prefix": "rbp"
     }
   ]
