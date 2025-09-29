@@ -1,7 +1,10 @@
 {
   "genera_ids": [
     "55039",
-    "9625"
+    "9625",
+    "34879",
+    "9623",
+    "425200"
   ],
   "genes": [
     {
@@ -15,9 +18,14 @@
         "file_prefix": "rag1"
     },
     {
-        "name": "IRBP/RBP3",
-        "term": "IRBP[Gene]",
-        "file_prefix": "rbp"
+        "name": "GHR",
+        "term": "GHR[Gene]",
+        "file_prefix": "ghr"
+    },
+    {
+        "name": "VWF",
+        "term": "VWF[Gene]",
+        "file_prefix": "vwf"
     }
   ]
 }
