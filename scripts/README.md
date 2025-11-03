@@ -60,7 +60,7 @@ This Bash script automatically aligns all raw FASTA sequence files using **MAFFT
 Run from the project root:
 
 ```bash
-./scripts/align_all.sh
+./scripts/get_alignments.sh
 ```
 
 Each input file named like:
@@ -104,7 +104,7 @@ The script will:
 2. Concatenate them into a single alignment (supermatrix)
 3. Save the results in `data/supermatrix/`
 
-## Maximum Likelihood Tree (Unpartitioned)
+## Maximum Likelihood Tree
 
 This command builds a maximum likelihood (ML) phylogenetic tree from the concatenated supermatrix alignment using [**IQ-TREE 3**](https://iqtree.github.io/). The analysis runs 1000 bootstrap replicates and automatically uses all available CPU cores.
 
@@ -119,3 +119,5 @@ iqtree3 \
  --prefix data/ml_trees/iqtree_supermatrix
 
 ```
+
+## Bayesian Trees
