@@ -9,6 +9,7 @@ import argparse
 from tqdm import tqdm
 
 
+# todo named tuple
 @dataclass
 class Gene:
     name: str
@@ -17,7 +18,7 @@ class Gene:
 
 
 @dataclass
-class Tax_info:
+class TaxInfo:
     tax_id: str
     scientific_name: str | None = None
     accession: str | None = None
@@ -26,12 +27,13 @@ class Tax_info:
     fasta: str = ""
 
     def get_sci_name(self):
-        '''sets the scientific name of the Tax_info class'''
-        tax_sum = ez.read(ez.esummary(db="taxonomy", id=self.tax_id))[0]
+        '''sets the scientific name of the TaxInfo class'''
+        tax_sum = ez.read(
+            ez.esummary(db="taxonomy", id=self.tax_id))[0]
         self.scientific_name = tax_sum["ScientificName"]
 
     def nuc_processing(self, gene: str):
-        '''gets and sets the accession, seq name, and seq length on the Tax_info class'''
+        '''gets and sets the accession, seq name, and seq length on the TaxInfo class'''
         nuc_search = ez.read(ez.esearch(
             db="nuccore", term=f'txid{self.tax_id}[ORGN] AND {gene}', retmax=1))
 
@@ -45,18 +47,18 @@ class Tax_info:
         self.seq_name = nuc_sum["Title"]
         self.seq_len = int(nuc_sum["Length"])
 
-    def get_fasta_data(self) -> str | None:
-        '''gets and sets a fasta property for the Tax_info class'''
+    def get_fasta_data(self) -> None:
+        '''gets and sets a fasta property for the TaxInfo class'''
         if self.accession is None:
-            return ""
+            return
         fasta_resp = ez.efetch(
             db="nuccore", id=self.accession, rettype="fasta", retmode="text")
-        self.fasta = f'>{self.scientific_name}\n{''.join(fasta_resp.readlines()[1:-2])}'
+        self.fasta = f'>{self.scientific_name.lower().replace(" ", "_")}\n{''.join(fasta_resp.readlines()[1:-2])}'
 
 
-def create_path(wd: Path) -> Path:
+def create_data_path(wd: Path, folder_name: str) -> Path:
     '''set/create folder path data will go in'''
-    folder_path: Path = wd / "data"
+    folder_path: Path = wd / 'data' / folder_name
 
     try:
         folder_path.mkdir(parents=True, exist_ok=True)
@@ -79,10 +81,10 @@ def get_tax_ids(ids: set[str]) -> set[str]:
     return tax_ids
 
 
-def create_csv(csv_name: Path, data: list[Tax_info]):
+def create_csv(csv_name: Path, data: list[TaxInfo]):
     '''
     creates csv file per gene that contains infomration in the 
-    Tax_info class besides fasta
+    TaxInfo class besides fasta
     '''
     headers = ["tax_id", "scientific_name", "accession", "seq_name", "seq_len"]
 
@@ -101,7 +103,7 @@ def create_csv(csv_name: Path, data: list[Tax_info]):
             })
 
 
-def create_fasta(file_name: Path, data: list[Tax_info]):
+def create_fasta(file_name: Path, data: list[TaxInfo]):
     '''creates a multi-fasta per gene'''
     with open(file_name, 'w') as fasta:
         for row in data:
@@ -111,7 +113,7 @@ def create_fasta(file_name: Path, data: list[Tax_info]):
 def main():
     '''This is the main function'''
     # set working directory
-    wd = Path(__file__).absolute().resolve().parent
+    wd = Path(__file__).resolve().parents[1]
 
     # parse command line arguments
     parser = argparse.ArgumentParser(
@@ -120,18 +122,19 @@ def main():
     parser.add_argument(
         '-f',
         '--file',
-        default='config.json',
+        default=wd / 'config.json',
         help='name of file for the program to injest'
     )
 
     args = parser.parse_args()
 
     # load env variables for email and api key
-    load_dotenv()
+    load_dotenv(wd / '.env')
     ez.email = os.getenv("ncbi_email")
     ez.api_key = os.getenv("ncbi_key")
 
-    folder_path = create_path(wd)
+    data_path = create_data_path(wd, "raw_data")
+    tables_path = create_data_path(wd, "tables")
 
     # read in config file
     if not os.path.exists(wd / args.file):
@@ -154,15 +157,15 @@ def main():
     txids: list[str] = list(get_tax_ids(genera_ids))
 
     for gene_config in genes:
-        tax_data: list[Tax_info] = []
+        tax_data: list[TaxInfo] = []
 
-        fasta_name: Path = folder_path / \
+        fasta_name: Path = data_path / \
             f'{gene_config.file_prefix}_seqs.fasta'
-        csv_name: Path = folder_path / f'{gene_config.file_prefix}_table.csv'
+        csv_name: Path = tables_path / f'{gene_config.file_prefix}_table.csv'
 
         with tqdm(total=len(txids), desc=gene_config.name) as progress:
             for tax_id in txids:
-                tax = Tax_info(tax_id)
+                tax = TaxInfo(tax_id)
                 tax.get_sci_name()
                 tax.nuc_processing(gene_config.term)
                 tax_data.append(tax)

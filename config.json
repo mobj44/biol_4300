@@ -1,31 +1,30 @@
 {
-  "genera_ids": [
-    "55039",
-    "9625",
-    "34879",
-    "9623",
-    "425200"
-  ],
+  "genera_ids": ["55039", "9625", "34879", "9623", "425200"],
   "genes": [
     {
-        "name": "MITOCHONDRION",
-        "term": "MITOCHONDRION[ALL]",
-        "file_prefix": "mt"
+      "name": "MITOCHONDRION",
+      "term": "MITOCHONDRION[ALL]",
+      "file_prefix": "mt"
     },
     {
-        "name": "RAG1",
-        "term": "RAG1[Gene]",
-        "file_prefix": "rag1"
+      "name": "RAG1",
+      "term": "(RAG1[Gene] OR \"recombination activating gene 1\"[All Fields])",
+      "file_prefix": "rag1"
     },
     {
-        "name": "GHR",
-        "term": "GHR[Gene]",
-        "file_prefix": "ghr"
+      "name": "GHR",
+      "term": "(GHR[Gene] OR \"growth hormone receptor\"[All Fields] OR \"GH receptor\"[All Fields] OR \"growth hormone binding protein\"[All Fields])",
+      "file_prefix": "ghr"
     },
     {
-        "name": "VWF",
-        "term": "VWF[Gene]",
-        "file_prefix": "vwf"
+      "name": "VWF",
+      "term": "(VWF[Gene] OR \"von Willebrand factor\"[All Fields] OR \"factor VIII-related antigen\"[All Fields])",
+      "file_prefix": "vwf"
+    },
+    {
+      "name": "IRBP",
+      "term": "(IRBP[All Fields] OR RBP3[Gene] OR \"interphotoreceptor retinoid-binding protein\"[All Fields])",
+      "file_prefix": "irbp"
     }
   ]
 }
