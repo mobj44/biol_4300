@@ -86,24 +86,7 @@ This script (`trim.R`) automatically trims DNA alignments by removing gapped sit
 
 ### Usage
 
-Run from the project root:
-
-```bash
-Rscript scripts/trim.R
-```
-
-Optional arguments:
-
-```bash
-Rscript scripts/trim.R \
-  --input_dir data/alignments \
-  --output_dir data/trimmed_alignments \
-  --trim_threshold 0.8
-```
-
-- **input_dir** — folder containing alignment FASTA files
-- **output_dir** — destination for trimmed alignments
-- **trim_threshold** — maximum allowed proportion of gaps per site (default: `0.8`)
+Run from the project root as your working directory run `trim.R`
 
 Each trimmed file is saved as `<gene>_trimmed.fasta` in the output directory.
 
