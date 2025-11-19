@@ -1,9 +1,9 @@
 {
-  "genera_ids": ["55039", "9625", "34879", "9623", "425200"],
+  "genera_ids": ["9608", "9644"],
   "genes": [
     {
       "name": "MITOCHONDRION",
-      "term": "MITOCHONDRION[ALL]",
+      "term": "MITOCHONDRION[ALL] AND \"complete genome\"[Title]",
       "file_prefix": "mt"
     },
     {
@@ -22,9 +22,9 @@
       "file_prefix": "vwf"
     },
     {
-      "name": "IRBP",
-      "term": "(IRBP[All Fields] OR RBP3[Gene] OR \"interphotoreceptor retinoid-binding protein\"[All Fields])",
-      "file_prefix": "irbp"
+      "name": "FES",
+      "term": "FES[GENE]",
+      "file_prefix": "fes"
     }
   ]
 }

@@ -1,51 +1,57 @@
 tax_id,scientific_name,accession,seq_name,seq_len
-55040,Urocyon cinereoargenteus,NC_026723.1,"Urocyon cinereoargenteus isolate 01PANT-20090525 mitochondrion, complete genome",16469
-1002255,Vulpes environmental sample,,,
-2879911,Vulpes macrotis arsipus,,,
-383736,Vulpes lagopus beringensis,,,
-68739,Lycalopex sechurae,KT448284.1,"Lycalopex sechurae mitochondrion, partial genome",16068
-68732,Vulpes zerda,NC_023459.1,"Vulpes zerda mitochondrion, complete genome",16683
-1621117,Urocyon littoralis catalinae,KP129064.1,"Urocyon littoralis catalinae isolate UNK23 mitochondrion, complete genome",16469
-9624,Otocyon megalotis,NC_036369.1,"Otocyon megalotis mitochondrion, complete genome",16431
-1303779,Lycalopex sp. Fuegian dog,,,
-2793303,Otocyon megalotis virgatus,,,
-68737,Lycalopex griseus,,,
-354189,Vulpes rueppellii,OQ274912.1,"Vulpes rueppellii mitochondrion, complete genome",16517
 34880,Nyctereutes procyonoides,NC_013700.1,"Nyctereutes procyonoides mitochondrion, complete genome",16713
-68734,Lycalopex vetulus,,,
-494514,Vulpes lagopus,OR880609.1,"Vulpes lagopus voucher 6081 mitochondrion, complete genome",16657
-9627,Vulpes vulpes,OZ067330.1,"Vulpes vulpes genome assembly, organelle: mitochondrion",16685
-9629,Vulpes corsac,NC_023958.1,"Vulpes corsac mitochondrion, complete genome",16721
-2658581,Vulpes macrotis mutica,,,
-354191,Lycalopex fulvipes,,,
-1398410,Vulpes vulpes montana,KF387633.1,"Vulpes vulpes montana mitochondrion, complete genome",16688
-2494276,Vulpes bengalensis,,,
-2726995,Lycalopex sp. CAN003,MN181406.1,"Lycalopex sp. CAN003 mitochondrion, partial genome",16066
-476260,Vulpes vulpes japonica,D83640.1,"Vulpes vulpes japonica mitochondrial DNA, major non-coding region",304
-561074,Vulpes ferrilata,NC_027935.1,"Vulpes ferrilata mitochondrion, complete genome",16667
-1224817,Vulpes pallida,,,
-9631,Vulpes velox,PV090785.1,"Vulpes velox mitochondrion, complete genome",15460
-2639686,unclassified Lycalopex,,,
-945042,Nyctereutes procyonoides albus,,,
-1621116,Urocyon littoralis dickeyi,KP129082.1,"Urocyon littoralis dickeyi isolate 4947314B0B mitochondrion, complete genome",16469
-192959,Nyctereutes procyonoides procyonoides,,,
-1621118,Urocyon littoralis clementae,KP129081.1,"Urocyon littoralis clementae isolate 985120029004811 mitochondrion, complete genome",16469
-1504800,Vulpes vulpes fulvus,,,
-1353242,Vulpes vulpes schrenckii,,,
-132609,Nyctereutes procyonoides koreensis,OM732330.1,"Nyctereutes procyonoides koreensis voucher cgrb15799 mitochondrion, complete genome",16522
-1621113,Urocyon littoralis littoralis,KP129017.1,"Urocyon littoralis littoralis isolate CHIS-30459 mitochondrion, complete genome",16469
-1621114,Urocyon littoralis santarosae,KP128993.1,"Urocyon littoralis santarosae isolate CHIS-30240 mitochondrion, complete genome",16469
-425201,Lycalopex gymnocercus,,,
-30540,Vulpes sp.,,,
-71547,Vulpes macrotis zinseri,,,
-244585,Urocyon littoralis,KP129082.1,"Urocyon littoralis dickeyi isolate 4947314B0B mitochondrion, complete genome",16469
-2726996,Lycalopex sp. CAN005,MN181407.1,"Lycalopex sp. CAN005 mitochondrion, partial genome",16069
-3370412,Nyctereutes viverrinus,,,
-9626,Vulpes chama,ON756054.3,"Vulpes chama isolate ID#15 mitochondrion, complete genome",16772
-354190,Vulpes cana,PV090783.1,"Vulpes cana mitochondrion, complete genome",15458
-68736,Lycalopex culpaeus,,,
-2793302,Otocyon megalotis megalotis,,,
+2605939,Canis lupus orion,MK948871.1,"Canis lupus orion mitochondrion, complete genome",16650
 1621115,Urocyon littoralis santacruzae,KP129062.1,"Urocyon littoralis santacruzae isolate M444 mitochondrion, complete genome",16469
+9611,Canis,OR260566.2,"Canis lupus familiaris isolate HH24Dg mitochondrion, complete genome",16711
+32534,Canis simensis,NC_062616.1,"Canis simensis mitochondrion, complete genome",16676
+1215600,Ursus arctos isabellinus,MW257206.1,"Ursus arctos isabellinus mitochondrion, complete genome",16555
+1398410,Vulpes vulpes montana,KF387633.1,"Vulpes vulpes montana mitochondrion, complete genome",16688
+354190,Vulpes cana,PV090783.1,"Vulpes cana mitochondrion, complete genome",15458
+494514,Vulpes lagopus,OR880609.1,"Vulpes lagopus voucher 6081 mitochondrion, complete genome",16657
+9627,Vulpes vulpes,NC_008434.1,"Vulpes vulpes mitochondrion, complete genome",16813
+55040,Urocyon cinereoargenteus,NC_026723.1,"Urocyon cinereoargenteus isolate 01PANT-20090525 mitochondrion, complete genome",16469
+522687,Ursus arctos pruinosus,MG066703.1,"Ursus arctos pruinosus isolate LZHR mitochondrion, complete genome",16389
 9630,Vulpes macrotis,PV090784.1,"Vulpes macrotis mitochondrion, complete genome",15460
-1002254,environmental samples,,,
-2627721,unclassified Vulpes,,,
+9614,Canis latrans,NC_008093.1,"Canis latrans mitochondrion, complete genome",16724
+68729,Cuon,NC_013445.1,"Cuon alpinus mitochondrion, complete genome",16672
+1419108,Cuon alpinus lepturus,KF646248.1,"Cuon alpinus lepturus mitochondrion, complete genome",16767
+228401,Canis lupus lycaon,MZ367914.1,"Canis lupus lycaon isolate S14-0331 mitochondrion, complete genome",15458
+244585,Urocyon littoralis,KP129082.1,"Urocyon littoralis dickeyi isolate 4947314B0B mitochondrion, complete genome",16469
+68732,Vulpes zerda,NC_023459.1,"Vulpes zerda mitochondrion, complete genome",16683
+9625,Vulpes,PV090785.1,"Vulpes velox mitochondrion, complete genome",15460
+68740,Speothos,NC_053974.1,"Speothos venaticus mitochondrion, complete genome",16975
+1621113,Urocyon littoralis littoralis,KP129017.1,"Urocyon littoralis littoralis isolate CHIS-30459 mitochondrion, complete genome",16469
+9626,Vulpes chama,ON756054.3,"Vulpes chama isolate ID#15 mitochondrion, complete genome",16772
+1707807,Canis lupaster,NC_027956.1,"Canis anthus isolate Can3 mitochondrion, complete genome",16721
+443256,Canis lupus lupus,NC_009686.1,"Canis lupus lupus mitochondrion, complete genome",16757
+55039,Urocyon,NC_026723.1,"Urocyon cinereoargenteus isolate 01PANT-20090525 mitochondrion, complete genome",16469
+561074,Vulpes ferrilata,NC_027935.1,"Vulpes ferrilata mitochondrion, complete genome",16667
+2957507,Canis aureus cruesemanni,ON986207.1,"Canis aureus cruesemanni mitochondrion, complete genome",16729
+1295334,Canis lupus desertorum,KC461238.1,"Canis lupus desertorum mitochondrion, complete genome",16770
+68728,Chrysocyon brachyurus,NC_024172.1,"Chrysocyon brachyurus mitochondrion, complete genome",16760
+132609,Nyctereutes procyonoides koreensis,OM732330.1,"Nyctereutes procyonoides koreensis voucher cgrb15799 mitochondrion, complete genome",16522
+1621118,Urocyon littoralis clementae,KP129081.1,"Urocyon littoralis clementae isolate 985120029004811 mitochondrion, complete genome",16469
+68727,Chrysocyon,NC_024172.1,"Chrysocyon brachyurus mitochondrion, complete genome",16760
+9622,Lycaon pictus,NC_028427.1,"Lycaon pictus mitochondrion, complete genome",16173
+1621114,Urocyon littoralis santarosae,KP128993.1,"Urocyon littoralis santarosae isolate CHIS-30240 mitochondrion, complete genome",16469
+143281,Canis lupus baileyi,MZ042323.1,"Canis lupus baileyi isolate Mexican_Wolf.1293 mitochondrion, complete genome",16730
+34879,Nyctereutes,NC_013700.1,"Nyctereutes procyonoides mitochondrion, complete genome",16713
+9624,Otocyon megalotis,NC_036369.1,"Otocyon megalotis mitochondrion, complete genome",16431
+246881,Canis lupus chanco,NC_010340.2,"Canis lupus chanco mitochondrion, complete genome",16774
+68724,Canis aureus,NC_067757.1,"Canis aureus isolate 1886-Antalya voucher 1886_CaAu mitochondrion, complete genome",16669
+45781,Canis rufus,NC_062617.1,"Canis rufus mitochondrion, complete genome",16474
+354189,Vulpes rueppellii,OQ274912.1,"Vulpes rueppellii mitochondrion, complete genome",16517
+9612,Canis lupus,OR260566.2,"Canis lupus familiaris isolate HH24Dg mitochondrion, complete genome",16711
+9615,Canis lupus familiaris,OR260566.2,"Canis lupus familiaris isolate HH24Dg mitochondrion, complete genome",16711
+1621117,Urocyon littoralis catalinae,KP129064.1,"Urocyon littoralis catalinae isolate UNK23 mitochondrion, complete genome",16469
+286419,Canis lupus dingo,OP476512.1,"Canis lupus dingo isolate Cooinda mitochondrion, complete genome",16721
+9629,Vulpes corsac,NC_023958.1,"Vulpes corsac mitochondrion, complete genome",16721
+68741,Speothos venaticus,NC_053974.1,"Speothos venaticus mitochondrion, complete genome",16975
+1341016,Canis lupus campestris,KC896375.1,"Canis lupus campestris mitochondrion, complete genome",16719
+9631,Vulpes velox,PV090785.1,"Vulpes velox mitochondrion, complete genome",15460
+425934,Canis lupus signatus,NC_060652.1,"Canis lupus signatus isolate Cl-H119 mitochondrion, complete genome",16728
+68730,Cuon alpinus,NC_013445.1,"Cuon alpinus mitochondrion, complete genome",16672
+1621116,Urocyon littoralis dickeyi,KP129082.1,"Urocyon littoralis dickeyi isolate 4947314B0B mitochondrion, complete genome",16469
+9621,Lycaon,NC_028427.1,"Lycaon pictus mitochondrion, complete genome",16173
+9623,Otocyon,NC_036369.1,"Otocyon megalotis mitochondrion, complete genome",16431
+554455,Canis lupus laniger,FJ032363.2,"Canis lupus laniger mitochondrion, complete genome",16723
