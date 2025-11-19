@@ -1,51 +1,46 @@
 tax_id,scientific_name,accession,seq_name,seq_len
-55040,Urocyon cinereoargenteus,DQ240809.1,"Urocyon cinereoargenteus isolate 4 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-1002255,Vulpes environmental sample,,,
-2879911,Vulpes macrotis arsipus,,,
-383736,Vulpes lagopus beringensis,,,
-68739,Lycalopex sechurae,DQ240806.1,"Pseudalopex sechurae isolate 1910 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-68732,Vulpes zerda,DQ240817.1,"Vulpes zerda isolate 1 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-1621117,Urocyon littoralis catalinae,,,
-9624,Otocyon megalotis,DQ240801.1,"Otocyon megalotis isolate FF48 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-1303779,Lycalopex sp. Fuegian dog,,,
-2793303,Otocyon megalotis virgatus,,,
-68737,Lycalopex griseus,DQ240804.1,"Pseudalopex griseus isolate 2474 von Willebrand factor (VWF) gene, exon 28 and partial cds",721
-354189,Vulpes rueppellii,DQ240815.1,"Vulpes rueppellii isolate 2 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
 34880,Nyctereutes procyonoides,XM_055314502.1,"PREDICTED: Nyctereutes procyonoides von Willebrand factor D and EGF domains (VWDE), mRNA",4957
-68734,Lycalopex vetulus,DQ240807.1,"Pseudalopex vetulus isolate RJ4 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68721,Atelocynus,DQ240789.1,"Atelocynus microtis isolate 5190 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+9611,Canis,NM_001002932.1,"Canis lupus familiaris von Willebrand factor (VWF), mRNA",8694
+68737,Lycalopex griseus,DQ240804.1,"Pseudalopex griseus isolate 2474 von Willebrand factor (VWF) gene, exon 28 and partial cds",721
+32534,Canis simensis,DQ240795.1,"Canis simensis isolate T486 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+354190,Vulpes cana,DQ240811.1,"Vulpes cana isolate 7 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+425201,Lycalopex gymnocercus,DQ240805.1,"Pseudalopex gymnocercus isolate 902 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
 494514,Vulpes lagopus,XM_041764828.1,"PREDICTED: Vulpes lagopus von Willebrand factor A domain containing 5B1 (VWA5B1), mRNA",3859
 9627,Vulpes vulpes,XM_072742949.1,"PREDICTED: Vulpes vulpes von Willebrand factor A domain containing 3B (VWA3B), mRNA",4329
-9629,Vulpes corsac,DQ240813.1,"Vulpes corsac isolate 488 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-2658581,Vulpes macrotis mutica,,,
-354191,Lycalopex fulvipes,DQ240803.1,"Pseudalopex fulvipes isolate F1895 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-1398410,Vulpes vulpes montana,,,
-2494276,Vulpes bengalensis,,,
-2726995,Lycalopex sp. CAN003,,,
-476260,Vulpes vulpes japonica,,,
-561074,Vulpes ferrilata,,,
-1224817,Vulpes pallida,,,
-9631,Vulpes velox,,,
-2639686,unclassified Lycalopex,,,
-945042,Nyctereutes procyonoides albus,,,
-1621116,Urocyon littoralis dickeyi,,,
-192959,Nyctereutes procyonoides procyonoides,,,
-1621118,Urocyon littoralis clementae,,,
-1504800,Vulpes vulpes fulvus,,,
-1353242,Vulpes vulpes schrenckii,,,
-132609,Nyctereutes procyonoides koreensis,,,
-1621113,Urocyon littoralis littoralis,,,
-1621114,Urocyon littoralis santarosae,,,
-425201,Lycalopex gymnocercus,DQ240805.1,"Pseudalopex gymnocercus isolate 902 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-30540,Vulpes sp.,,,
-71547,Vulpes macrotis zinseri,,,
-244585,Urocyon littoralis,DQ240810.1,"Urocyon littoralis isolate SNI22 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-2726996,Lycalopex sp. CAN005,,,
-3370412,Nyctereutes viverrinus,,,
-9626,Vulpes chama,DQ240812.1,"Vulpes chama isolate F3 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-354190,Vulpes cana,DQ240811.1,"Vulpes cana isolate 7 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-68736,Lycalopex culpaeus,DQ240802.1,"Pseudalopex culpaeus isolate 900 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-2793302,Otocyon megalotis megalotis,,,
-1621115,Urocyon littoralis santacruzae,,,
+55040,Urocyon cinereoargenteus,DQ240809.1,"Urocyon cinereoargenteus isolate 4 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
 9630,Vulpes macrotis,DQ240814.1,"Vulpes macrotis isolate Corizo von Willebrand factor (VWF) gene, exon 28 and partial cds",732
-1002254,environmental samples,,,
-2627721,unclassified Vulpes,,,
+9614,Canis latrans,DQ240792.1,"Canis latrans isolate C130 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68734,Lycalopex vetulus,DQ240807.1,"Pseudalopex vetulus isolate RJ4 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68729,Cuon,DQ240798.1,"Cuon alpinus isolate 181021 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+244585,Urocyon littoralis,DQ240810.1,"Urocyon littoralis isolate SNI22 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68732,Vulpes zerda,DQ240817.1,"Vulpes zerda isolate 1 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68723,Canis adustus,DQ240790.1,"Canis adustus isolate 19/20 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+9625,Vulpes,XM_072742949.1,"PREDICTED: Vulpes vulpes von Willebrand factor A domain containing 3B (VWA3B), mRNA",4329
+425200,Lycalopex,DQ240807.1,"Pseudalopex vetulus isolate RJ4 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68722,Atelocynus microtis,DQ240789.1,"Atelocynus microtis isolate 5190 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68740,Speothos,DQ240808.1,"Speothos venaticus isolate 990206 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+9626,Vulpes chama,DQ240812.1,"Vulpes chama isolate F3 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+55039,Urocyon,DQ240810.1,"Urocyon littoralis isolate SNI22 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+1316009,Cerdocyon,DQ240796.1,"Dusicyon thous isolate RJ1 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68728,Chrysocyon brachyurus,DQ240797.1,"Chrysocyon brachyurus isolate 8706 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68727,Chrysocyon,DQ240797.1,"Chrysocyon brachyurus isolate 8706 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+9622,Lycaon pictus,DQ240799.1,"Lycaon pictus isolate ZIMQR von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+143281,Canis lupus baileyi,XM_072836126.1,"PREDICTED: Canis lupus baileyi von Willebrand factor A domain containing 3A (VWA3A), transcript variant X5, mRNA",4636
+34879,Nyctereutes,XM_055314502.1,"PREDICTED: Nyctereutes procyonoides von Willebrand factor D and EGF domains (VWDE), mRNA",4957
+9624,Otocyon megalotis,DQ240801.1,"Otocyon megalotis isolate FF48 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68724,Canis aureus,DQ240791.1,"Canis aureus isolate 627 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68725,Canis mesomelas,DQ240794.1,"Canis mesomelas isolate 650 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+354189,Vulpes rueppellii,DQ240815.1,"Vulpes rueppellii isolate 2 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+9612,Canis lupus,NM_001002932.1,"Canis lupus familiaris von Willebrand factor (VWF), mRNA",8694
+9615,Canis lupus familiaris,NM_001002932.1,"Canis lupus familiaris von Willebrand factor (VWF), mRNA",8694
+286419,Canis lupus dingo,XR_007411250.1,"PREDICTED: Canis lupus dingo von Willebrand factor A domain containing 3A (VWA3A), transcript variant X9, misc_RNA",3869
+9629,Vulpes corsac,DQ240813.1,"Vulpes corsac isolate 488 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68741,Speothos venaticus,DQ240808.1,"Speothos venaticus isolate 990206 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68739,Lycalopex sechurae,DQ240806.1,"Pseudalopex sechurae isolate 1910 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+354191,Lycalopex fulvipes,DQ240803.1,"Pseudalopex fulvipes isolate F1895 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+9620,Cerdocyon thous,DQ240796.1,"Dusicyon thous isolate RJ1 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68730,Cuon alpinus,DQ240798.1,"Cuon alpinus isolate 181021 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+9621,Lycaon,DQ240799.1,"Lycaon pictus isolate ZIMQR von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+68736,Lycalopex culpaeus,DQ240802.1,"Pseudalopex culpaeus isolate 900 von Willebrand factor (VWF) gene, exon 28 and partial cds",732
+9623,Otocyon,DQ240801.1,"Otocyon megalotis isolate FF48 von Willebrand factor (VWF) gene, exon 28 and partial cds",732

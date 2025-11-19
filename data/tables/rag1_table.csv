@@ -1,51 +1,46 @@
 tax_id,scientific_name,accession,seq_name,seq_len
-55040,Urocyon cinereoargenteus,DQ240708.1,"Urocyon cinereoargenteus isolate 4 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-1002255,Vulpes environmental sample,,,
-2879911,Vulpes macrotis arsipus,,,
-383736,Vulpes lagopus beringensis,,,
-68739,Lycalopex sechurae,DQ240705.1,"Pseudalopex sechurae isolate 1910 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-68732,Vulpes zerda,DQ240716.1,"Vulpes zerda isolate 1 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-1621117,Urocyon littoralis catalinae,,,
-9624,Otocyon megalotis,DQ240700.1,"Otocyon megalotis isolate FF48 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-1303779,Lycalopex sp. Fuegian dog,,,
-2793303,Otocyon megalotis virgatus,,,
-68737,Lycalopex griseus,DQ240703.1,"Pseudalopex griseus isolate 2474 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-354189,Vulpes rueppellii,DQ240714.1,"Vulpes rueppellii isolate 2 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",667
 34880,Nyctereutes procyonoides,XM_055300734.1,"PREDICTED: Nyctereutes procyonoides recombination activating 1 (RAG1), mRNA",3132
-68734,Lycalopex vetulus,DQ240706.1,"Pseudalopex vetulus isolate RJ4 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68721,Atelocynus,DQ240688.1,"Atelocynus microtis isolate 5190 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+9611,Canis,XM_072791989.1,"PREDICTED: Canis lupus baileyi recombination activating 1 (RAG1), mRNA",3133
+68737,Lycalopex griseus,DQ240703.1,"Pseudalopex griseus isolate 2474 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+32534,Canis simensis,DQ240694.1,"Canis simensis isolate T486 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+354190,Vulpes cana,DQ240710.1,"Vulpes cana isolate 7 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",665
+425201,Lycalopex gymnocercus,DQ240704.1,"Pseudalopex gymnocercus isolate 902 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
 494514,Vulpes lagopus,XM_041773539.1,"PREDICTED: Vulpes lagopus recombination activating 1 (RAG1), mRNA",5068
 9627,Vulpes vulpes,XM_072759150.1,"PREDICTED: Vulpes vulpes recombination activating 1 (RAG1), mRNA",9025
-9629,Vulpes corsac,DQ240712.1,"Vulpes corsac isolate 488 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-2658581,Vulpes macrotis mutica,,,
-354191,Lycalopex fulvipes,DQ240702.1,"Pseudalopex fulvipes isolate F1895 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",670
-1398410,Vulpes vulpes montana,,,
-2494276,Vulpes bengalensis,,,
-2726995,Lycalopex sp. CAN003,,,
-476260,Vulpes vulpes japonica,,,
-561074,Vulpes ferrilata,,,
-1224817,Vulpes pallida,,,
-9631,Vulpes velox,,,
-2639686,unclassified Lycalopex,,,
-945042,Nyctereutes procyonoides albus,,,
-1621116,Urocyon littoralis dickeyi,,,
-192959,Nyctereutes procyonoides procyonoides,,,
-1621118,Urocyon littoralis clementae,,,
-1504800,Vulpes vulpes fulvus,,,
-1353242,Vulpes vulpes schrenckii,,,
-132609,Nyctereutes procyonoides koreensis,,,
-1621113,Urocyon littoralis littoralis,,,
-1621114,Urocyon littoralis santarosae,,,
-425201,Lycalopex gymnocercus,DQ240704.1,"Pseudalopex gymnocercus isolate 902 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-30540,Vulpes sp.,,,
-71547,Vulpes macrotis zinseri,,,
-244585,Urocyon littoralis,DQ240709.1,"Urocyon littoralis isolate SNI22 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-2726996,Lycalopex sp. CAN005,,,
-3370412,Nyctereutes viverrinus,,,
-9626,Vulpes chama,DQ240711.1,"Vulpes chama isolate F3 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-354190,Vulpes cana,DQ240710.1,"Vulpes cana isolate 7 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",665
-68736,Lycalopex culpaeus,DQ240701.1,"Pseudalopex culpaeus isolate 900 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-2793302,Otocyon megalotis megalotis,,,
-1621115,Urocyon littoralis santacruzae,,,
+55040,Urocyon cinereoargenteus,DQ240708.1,"Urocyon cinereoargenteus isolate 4 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
 9630,Vulpes macrotis,DQ240713.1,"Vulpes macrotis isolate Corizo recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
-1002254,environmental samples,,,
-2627721,unclassified Vulpes,,,
+9614,Canis latrans,DQ240691.1,"Canis latrans isolate C130 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68734,Lycalopex vetulus,DQ240706.1,"Pseudalopex vetulus isolate RJ4 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68729,Cuon,DQ240697.1,"Cuon alpinus isolate 181021 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+244585,Urocyon littoralis,DQ240709.1,"Urocyon littoralis isolate SNI22 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68732,Vulpes zerda,DQ240716.1,"Vulpes zerda isolate 1 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68723,Canis adustus,DQ240689.1,"Canis adustus isolate 19/20 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+9625,Vulpes,XM_072759150.1,"PREDICTED: Vulpes vulpes recombination activating 1 (RAG1), mRNA",9025
+425200,Lycalopex,DQ240706.1,"Pseudalopex vetulus isolate RJ4 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68722,Atelocynus microtis,DQ240688.1,"Atelocynus microtis isolate 5190 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68740,Speothos,DQ240707.1,"Speothos venaticus isolate 990206 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+9626,Vulpes chama,DQ240711.1,"Vulpes chama isolate F3 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+55039,Urocyon,DQ240709.1,"Urocyon littoralis isolate SNI22 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+1316009,Cerdocyon,DQ240695.1,"Dusicyon thous isolate RJ1 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68728,Chrysocyon brachyurus,DQ240696.1,"Chrysocyon brachyurus isolate 8706 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68727,Chrysocyon,DQ240696.1,"Chrysocyon brachyurus isolate 8706 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+9622,Lycaon pictus,DQ240698.1,"Lycaon pictus isolate ZIMQR recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+143281,Canis lupus baileyi,XM_072791989.1,"PREDICTED: Canis lupus baileyi recombination activating 1 (RAG1), mRNA",3133
+34879,Nyctereutes,XM_055300734.1,"PREDICTED: Nyctereutes procyonoides recombination activating 1 (RAG1), mRNA",3132
+9624,Otocyon megalotis,DQ240700.1,"Otocyon megalotis isolate FF48 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68724,Canis aureus,DQ240690.1,"Canis aureus isolate 627 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68725,Canis mesomelas,DQ240693.1,"Canis mesomelas isolate 650 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+354189,Vulpes rueppellii,DQ240714.1,"Vulpes rueppellii isolate 2 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",667
+9612,Canis lupus,XM_072791989.1,"PREDICTED: Canis lupus baileyi recombination activating 1 (RAG1), mRNA",3133
+9615,Canis lupus familiaris,NC_051822.1,"Canis lupus familiaris isolate SID07034 breed Labrador retriever chromosome 18, ROS_Cfam_1.0, whole genome shotgun sequence",56883407
+286419,Canis lupus dingo,XM_035702001.2,"PREDICTED: Canis lupus dingo recombination activating 1 (RAG1), mRNA",3315
+9629,Vulpes corsac,DQ240712.1,"Vulpes corsac isolate 488 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68741,Speothos venaticus,DQ240707.1,"Speothos venaticus isolate 990206 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68739,Lycalopex sechurae,DQ240705.1,"Pseudalopex sechurae isolate 1910 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+354191,Lycalopex fulvipes,DQ240702.1,"Pseudalopex fulvipes isolate F1895 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",670
+9620,Cerdocyon thous,DQ240695.1,"Dusicyon thous isolate RJ1 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68730,Cuon alpinus,DQ240697.1,"Cuon alpinus isolate 181021 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+9621,Lycaon,DQ240698.1,"Lycaon pictus isolate ZIMQR recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+68736,Lycalopex culpaeus,DQ240701.1,"Pseudalopex culpaeus isolate 900 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741
+9623,Otocyon,DQ240700.1,"Otocyon megalotis isolate FF48 recombination activating protein 1 (RAG1) gene, exon 1 and partial cds",741

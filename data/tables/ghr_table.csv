@@ -1,51 +1,49 @@
 tax_id,scientific_name,accession,seq_name,seq_len
-55040,Urocyon cinereoargenteus,DQ240674.1,"Urocyon cinereoargenteus isolate 4 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-1002255,Vulpes environmental sample,,,
-2879911,Vulpes macrotis arsipus,,,
-383736,Vulpes lagopus beringensis,,,
-68739,Lycalopex sechurae,DQ240671.1,"Pseudalopex sechurae isolate 1910 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-68732,Vulpes zerda,DQ240682.1,"Vulpes zerda isolate 1 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-1621117,Urocyon littoralis catalinae,,,
-9624,Otocyon megalotis,DQ240666.1,"Otocyon megalotis isolate FF48 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-1303779,Lycalopex sp. Fuegian dog,,,
-2793303,Otocyon megalotis virgatus,,,
-68737,Lycalopex griseus,DQ240669.1,"Pseudalopex griseus isolate 2474 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-354189,Vulpes rueppellii,DQ240680.1,"Vulpes rueppellii isolate 2 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
 34880,Nyctereutes procyonoides,XM_055325045.1,"PREDICTED: Nyctereutes procyonoides growth hormone receptor (GHR), transcript variant X2, mRNA",4084
-68734,Lycalopex vetulus,DQ240672.1,"Pseudalopex vetulus isolate RJ4 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68721,Atelocynus,DQ240654.1,"Atelocynus microtis isolate 5190 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+9611,Canis,NM_001003123.1,"Canis lupus familiaris growth hormone receptor (GHR), mRNA",1946
+68737,Lycalopex griseus,DQ240669.1,"Pseudalopex griseus isolate 2474 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+32534,Canis simensis,DQ240660.1,"Canis simensis isolate T486 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+354190,Vulpes cana,DQ240676.1,"Vulpes cana isolate 7 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+425201,Lycalopex gymnocercus,OR282478.1,"Lycalopex gymnocercus isolate Pampas_fox2 growth hormone receptor (GHR) gene, partial cds",749
 494514,Vulpes lagopus,XM_041747928.1,"PREDICTED: Vulpes lagopus growth hormone receptor (GHR), transcript variant X10, mRNA",4028
 9627,Vulpes vulpes,XM_072756986.1,"PREDICTED: Vulpes vulpes growth hormone receptor (GHR), transcript variant X5, mRNA",3986
-9629,Vulpes corsac,DQ240678.1,"Vulpes corsac isolate 488 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-2658581,Vulpes macrotis mutica,,,
-354191,Lycalopex fulvipes,DQ240668.1,"Pseudalopex fulvipes isolate F1895 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-1398410,Vulpes vulpes montana,,,
-2494276,Vulpes bengalensis,,,
-2726995,Lycalopex sp. CAN003,,,
-476260,Vulpes vulpes japonica,,,
-561074,Vulpes ferrilata,,,
-1224817,Vulpes pallida,,,
-9631,Vulpes velox,DQ205838.1,"Vulpes velox growth hormone receptor (GHR) gene, partial cds",823
-2639686,unclassified Lycalopex,,,
-945042,Nyctereutes procyonoides albus,,,
-1621116,Urocyon littoralis dickeyi,,,
-192959,Nyctereutes procyonoides procyonoides,,,
-1621118,Urocyon littoralis clementae,,,
-1504800,Vulpes vulpes fulvus,,,
-1353242,Vulpes vulpes schrenckii,,,
-132609,Nyctereutes procyonoides koreensis,,,
-1621113,Urocyon littoralis littoralis,,,
-1621114,Urocyon littoralis santarosae,,,
-425201,Lycalopex gymnocercus,OR282478.1,"Lycalopex gymnocercus isolate Pampas_fox2 growth hormone receptor (GHR) gene, partial cds",749
-30540,Vulpes sp.,,,
-71547,Vulpes macrotis zinseri,,,
-244585,Urocyon littoralis,DQ240675.1,"Urocyon littoralis isolate SNI22 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-2726996,Lycalopex sp. CAN005,,,
-3370412,Nyctereutes viverrinus,,,
-9626,Vulpes chama,DQ240677.1,"Vulpes chama isolate F3 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-354190,Vulpes cana,DQ240676.1,"Vulpes cana isolate 7 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-68736,Lycalopex culpaeus,DQ240667.1,"Pseudalopex culpaeus isolate 900 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-2793302,Otocyon megalotis megalotis,,,
-1621115,Urocyon littoralis santacruzae,,,
+55040,Urocyon cinereoargenteus,DQ240674.1,"Urocyon cinereoargenteus isolate 4 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
 9630,Vulpes macrotis,DQ240679.1,"Vulpes macrotis isolate Corizo growth hormone receptor (GHR) gene, exon 9 and partial cds",736
-1002254,environmental samples,,,
-2627721,unclassified Vulpes,,,
+3069387,Canidae intergeneric hybrids,OR282479.1,"Canis lupus familiaris x Lycalopex gymnocercus isolate Canid growth hormone receptor (GHR) gene, partial cds",749
+9614,Canis latrans,DQ240657.1,"Canis latrans isolate C130 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68734,Lycalopex vetulus,DQ240672.1,"Pseudalopex vetulus isolate RJ4 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68729,Cuon,DQ240663.1,"Cuon alpinus isolate 181021 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+244585,Urocyon littoralis,DQ240675.1,"Urocyon littoralis isolate SNI22 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68732,Vulpes zerda,DQ240682.1,"Vulpes zerda isolate 1 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68723,Canis adustus,DQ240655.1,"Canis adustus isolate 19/20 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+9625,Vulpes,XM_072756986.1,"PREDICTED: Vulpes vulpes growth hormone receptor (GHR), transcript variant X5, mRNA",3986
+425200,Lycalopex,OR282478.1,"Lycalopex gymnocercus isolate Pampas_fox2 growth hormone receptor (GHR) gene, partial cds",749
+68722,Atelocynus microtis,DQ240654.1,"Atelocynus microtis isolate 5190 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68740,Speothos,DQ240673.1,"Speothos venaticus isolate 990206 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+9626,Vulpes chama,DQ240677.1,"Vulpes chama isolate F3 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+55039,Urocyon,DQ240675.1,"Urocyon littoralis isolate SNI22 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+1316009,Cerdocyon,DQ240661.1,"Dusicyon thous isolate RJ1 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68728,Chrysocyon brachyurus,DQ240662.1,"Chrysocyon brachyurus isolate 8706 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68727,Chrysocyon,DQ240662.1,"Chrysocyon brachyurus isolate 8706 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+9622,Lycaon pictus,DQ240664.1,"Lycaon pictus isolate ZIMQR growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+143281,Canis lupus baileyi,XM_072824751.1,"PREDICTED: Canis lupus baileyi growth hormone receptor (GHR), transcript variant X8, mRNA",4046
+34879,Nyctereutes,XM_055325045.1,"PREDICTED: Nyctereutes procyonoides growth hormone receptor (GHR), transcript variant X2, mRNA",4084
+9624,Otocyon megalotis,DQ240666.1,"Otocyon megalotis isolate FF48 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68724,Canis aureus,DQ240656.1,"Canis aureus isolate 627 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68725,Canis mesomelas,DQ240659.1,"Canis mesomelas isolate 650 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+354189,Vulpes rueppellii,DQ240680.1,"Vulpes rueppellii isolate 2 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+9612,Canis lupus,NM_001003123.1,"Canis lupus familiaris growth hormone receptor (GHR), mRNA",1946
+9615,Canis lupus familiaris,NM_001003123.1,"Canis lupus familiaris growth hormone receptor (GHR), mRNA",1946
+286419,Canis lupus dingo,XM_035714890.2,"PREDICTED: Canis lupus dingo growth hormone receptor (GHR), transcript variant X7, mRNA",4096
+9629,Vulpes corsac,DQ240678.1,"Vulpes corsac isolate 488 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68741,Speothos venaticus,DQ240673.1,"Speothos venaticus isolate 990206 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68739,Lycalopex sechurae,DQ240671.1,"Pseudalopex sechurae isolate 1910 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+354191,Lycalopex fulvipes,DQ240668.1,"Pseudalopex fulvipes isolate F1895 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+9631,Vulpes velox,DQ205838.1,"Vulpes velox growth hormone receptor (GHR) gene, partial cds",823
+9620,Cerdocyon thous,DQ240661.1,"Dusicyon thous isolate RJ1 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+68730,Cuon alpinus,DQ240663.1,"Cuon alpinus isolate 181021 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+9621,Lycaon,DQ240664.1,"Lycaon pictus isolate ZIMQR growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+3069388,Canis lupus familiaris x Lycalopex gymnocercus,OR282479.1,"Canis lupus familiaris x Lycalopex gymnocercus isolate Canid growth hormone receptor (GHR) gene, partial cds",749
+68736,Lycalopex culpaeus,DQ240667.1,"Pseudalopex culpaeus isolate 900 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
+9623,Otocyon,DQ240666.1,"Otocyon megalotis isolate FF48 growth hormone receptor (GHR) gene, exon 9 and partial cds",736
