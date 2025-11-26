@@ -1,3 +1,4 @@
+import time
 from dataclasses import dataclass
 from Bio import Entrez as ez
 import json
@@ -27,24 +28,72 @@ class TaxInfo:
 
     def get_sci_name(self):
         '''sets the scientific name of the TaxInfo class'''
-        tax_sum = ez.read(
-            ez.esummary(db="taxonomy", id=self.tax_id))[0]
+        tax_sum = ez.read(ez.esummary(
+            db="taxonomy",
+            id=self.tax_id
+        ))[0]
         self.scientific_name = tax_sum["ScientificName"]
 
     def nuc_processing(self, gene: str):
         '''gets and sets the accession, seq name, and seq length on the TaxInfo class'''
-        nuc_search = ez.read(ez.esearch(
-            db="nuccore", term=f'txid{self.tax_id}[ORGN] AND {gene}', retmax=1))
+
+        nuc_search = entrez_retry(
+            lambda: ez.read(
+                ez.esearch(
+                    db="nuccore",
+                    term=f'txid{self.tax_id}[ORGN] AND {gene}',
+                    retmax=1
+                )
+            )
+        )
 
         nuc_id = nuc_search["IdList"][0] if len(
             nuc_search["IdList"]) >= 1 else None
+
         if nuc_id is None:
             return
-        nuc_sum = ez.read(ez.esummary(db="nuccore", id=nuc_id))[0]
+
+        nuc_sum = entrez_retry(
+            lambda: ez.read(
+                ez.esummary(
+                    db="nuccore",
+                    id=nuc_id
+                )
+            )[0]
+        )
 
         self.accession = nuc_sum["AccessionVersion"]
         self.seq_name = nuc_sum["Title"]
         self.seq_len = int(nuc_sum["Length"])
+
+
+def entrez_retry(request_func, retries=3, delay=1.5):
+    """
+    Retry wrapper for Entrez calls: retry only on NCBI backend errors.
+    request_func must be a lambda returning an Entrez handle or ez.read result.
+    """
+    for attempt in range(1, retries + 1):
+        try:
+            return request_func()
+        except Exception as e:
+            msg = str(e)
+
+            # NCBI backend hiccups usually trigger RuntimeError with this text:
+            transient = (
+                "Search Backend failed" in msg or
+                "HTTP Error" in msg or
+                "temporarily unavailable" in msg or
+                isinstance(e, RuntimeError)
+            )
+
+            if transient:
+                print(f"[Entrez] transient error (attempt {attempt}): {e}")
+                if attempt == retries:
+                    raise  # re-raise on final failure
+                time.sleep(delay)
+            else:
+                # unexpected error → do NOT retry
+                raise
 
 
 def get_tax_ids(ids: set[str]) -> set[str]:
