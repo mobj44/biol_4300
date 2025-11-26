@@ -1,5 +1,5 @@
 {
-  "genera_ids": ["9608", "9644"],
+  "genera_ids": ["9608", "9643"],
   "genes": [
     {
       "name": "MITOCHONDRION",
@@ -8,7 +8,7 @@
     },
     {
       "name": "RAG1",
-      "term": "(RAG1[Gene] OR \"recombination activating gene 1\"[All Fields])",
+      "term": "(RAG1[Gene] OR \"recombination activating gene 1\"[All Fields]) AND 100:10000[SLEN]",
       "file_prefix": "rag1"
     },
     {
