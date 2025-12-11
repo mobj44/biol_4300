@@ -153,3 +153,18 @@ iqtree3 \
 ```
 
 ## Bayesian Trees
+
+Ran with BEAUTi and BEAST2
+
+Parameters used:
+
+- HKY substitution model
+- Strict clock
+- 100,000,000 chain
+- Calibrated yule
+- Calibration point at 45 MYA split with Ursidae
+- Logged every 1000
+
+## 8. Tree Visualization
+
+Final Tree made by running the `tree_vis.R` script. It runs on the ML tree generated in step 7.
